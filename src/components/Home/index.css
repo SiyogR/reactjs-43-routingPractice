@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+.container {
+  height: 100vh;
+  background-size: cover;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 20px;
+  color: #551e53;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+}
+
+.para {
+  font-size: 20px;
+  color: black;
+  font-family: 'Roboto';
+  font-weight: normal;
+}
