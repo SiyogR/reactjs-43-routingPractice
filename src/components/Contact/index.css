@@ -1,8 +1,6 @@
 /* Write your CSS code here */
 .container {
-  height: 100vh;
-  background-size: cover;
-  background-color: #ffffff;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,11 +17,4 @@
 .img {
   height: 100px;
   width: 100px;
-}
-
-.para {
-  font-size: 20px;
-  color: black;
-  font-family: 'Roboto';
-  font-weight: normal;
 }

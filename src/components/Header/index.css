@@ -1,37 +1,51 @@
 /* Write your CSS code here */
-.heading {
-  font-size: 20px;
-  color: #551e53;
-  font-family: 'Roboto';
-  font-weight: bold;
-}
-
-.logo {
-  height: 100px;
-  width: 100px;
-}
-.nav-container {
+.header-container {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+
+  padding: 32px;
 }
 
-@media screen and (min-width: 992px) {
-  .nav-container {
-    justify-content: space-between;
+@media screen and (max-width: 575px) {
+  .header-container {
+    padding: 15px;
   }
 }
 
-.container {
-  margin: 20px;
-}
-
-.nav-menu {
+.logo-and-title-container {
   display: flex;
+  align-items: center;
 }
 
-.nav-link {
-  font-size: 20px;
-  color: black;
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.title {
+  color: #12022f;
   font-family: 'Roboto';
+  font-size: 16px;
   font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+}
+
+.link-item {
+  list-style-type: none;
+}
+
+.route-link {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
 }

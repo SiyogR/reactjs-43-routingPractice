@@ -13,6 +13,13 @@ body {
 
 /* Write your CSS code here */
 
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 .responsive-container {
   display: flex;
   flex-direction: column;
@@ -22,14 +29,7 @@ body {
   border-radius: 12px;
 }
 
-app-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-@media screen and (min-width: 576px) {
+@media (max-width: 576px) {
   .responsive-container {
     width: 85%;
   }
